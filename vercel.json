@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "services": [
+    {
+      "src": "Dockerfile",
+      "runtime": "container"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
